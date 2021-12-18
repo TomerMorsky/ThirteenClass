@@ -1,2 +1,2 @@
-# thirteenClass
+# ThirteenClass
 Final project at thirteen 
