@@ -54,7 +54,6 @@ public class LoseScreen extends JPanel{
 				
 				@Override
 				public void actionPerformed(ActionEvent e) {
-					//instead of create new game, make a method that resume to the first situation
 					main.game.newGame();
 					main.frame.setSize(1000, 600);
 					main.frame.setContentPane(new GamePanel(main.game.getPlayers(), main.game.getOpenPile(), main.game.getPile(), main.game));
@@ -75,7 +74,6 @@ public class LoseScreen extends JPanel{
 					try {
 						Stats stats = new Stats();
 						stats.updateStats(main.game.getPlayerName(), maxScore);
-						System.out.println("write to file!!!!!");
 					} catch (IOException e1) {
 						e1.printStackTrace();
 					}

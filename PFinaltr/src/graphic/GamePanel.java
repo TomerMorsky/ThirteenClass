@@ -38,7 +38,7 @@ public class GamePanel extends JPanel {
 	JButton yanivButton;
 	Game gameTemp;
 	JPanel p;
-	static int minToCallYaniv = 9; // the minimal sum to call yaniv
+	static int minToCallYaniv = 7; // the minimal sum to call yaniv
 	private JTextArea p1Points, p2Points, p3Points;
 	private int sourceX;
 	private int sourceY;
@@ -113,7 +113,7 @@ public class GamePanel extends JPanel {
 			this.yanivButton.setEnabled(false);
 		}else {
 			// only if the sum is lower than 9 can click the yaniv 
-			if(gameTemp.getPlayers().get(1).sumCards() < minToCallYaniv) {
+			if(gameTemp.getPlayers().get(1).sumCards() <= minToCallYaniv) {
 				this.yanivButton.setEnabled(true);
 			}
 			
@@ -268,7 +268,6 @@ public class GamePanel extends JPanel {
 	//of pile
 	public void setDestinationAndSource(int sorX, int sorY, int desX, int desY, Card card) {
 		//setDestination();
-		System.out.println();
 		sourceX = sorX;//place of the pile
 		sourceY = sorY;//place of the pile
 		destinationX = desX;

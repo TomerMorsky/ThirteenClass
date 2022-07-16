@@ -10,7 +10,6 @@ import javax.imageio.ImageIO;
 
 /**
  * this class used to save all the cards in a list. It responsible on the first boot of the cards.
- * @author Tomer
  *
  */
 public class HomePile {

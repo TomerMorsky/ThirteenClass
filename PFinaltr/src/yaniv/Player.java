@@ -22,9 +22,8 @@ public class Player implements Drawable{
 	private List<Integer> tempCardIndex; // list of card that chosen - will draw differently
 	private List<Card> tempCards;
 	private List<Integer> tempCardSerial;// list of the serial of the cards that chosen
-	//private Card tempCard;
 	private String name;
-	private int x = 120,y;//place of the draw cards
+	private int x = 120, y;//place of the draw cards
 	private Boolean gameOver = false;
 	private int destenationX;
 	private int destenationY;
@@ -231,10 +230,6 @@ public class Player implements Drawable{
 		}
 		return null;
 	}
-	
-	
-	
-	
 	
 	 /**
      * Converts a given BufferedImage into an Image
