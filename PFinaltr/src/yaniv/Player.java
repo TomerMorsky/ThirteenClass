@@ -231,10 +231,6 @@ public class Player implements Drawable{
 		return null;
 	}
 	
-	
-	
-	
-	
 	 /**
      * Converts a given BufferedImage into an Image
      * 

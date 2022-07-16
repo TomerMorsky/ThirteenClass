@@ -380,7 +380,7 @@ public void cardClicked3(int x, int y) {
 	
 	// methods for computer:
 	/**
-	 * afer yaniv button called - come here, update the points of each player for the current play 
+	 * After yaniv button called - come here, update the points of each player for the current play 
 	 * show the cards of the players for 4 seconds and move the player to the correct screen.
 	 */
 	public void gameFinish() {
