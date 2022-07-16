@@ -83,7 +83,6 @@ public class OpenScreen extends JPanel{
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				System.out.println("Instruction pushed");
 				main.frame.setContentPane(new InstructionScreen());
 				main.frame.validate();
 				main.frame.setSize(1280,720);
@@ -104,7 +103,6 @@ public class OpenScreen extends JPanel{
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				System.out.println("gobletButton pushed");
 				main.frame.setContentPane(new MaxScores());
 				main.frame.validate();
 				main.frame.setSize(500,600);
@@ -136,7 +134,6 @@ public class OpenScreen extends JPanel{
 			public void focusLost(FocusEvent e) {
 				
 			}
-			// use like hint : disappear the previous text and put ""
 			@Override
 			public void focusGained(FocusEvent e) {
 				enterNameTextField.setText("");

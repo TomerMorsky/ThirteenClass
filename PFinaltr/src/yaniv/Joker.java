@@ -1,10 +1,8 @@
 package yaniv;
 
-
 import java.awt.Image;
 /**
  * class for joker card- special card. in addiction to a regular card it has two more attributes this is because joker can be every card 
- * @author Tomer
  *
  */
 public class Joker extends Card {

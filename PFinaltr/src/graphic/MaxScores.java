@@ -32,20 +32,9 @@ public class MaxScores extends JPanel {
 			points = stats.getMaxScore();
 			name = stats.getNameOfWinner();
 		} catch (IOException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		/**
-		 *  try {
-			this.stats = new Stats();
-		} catch (IOException e) {
-			e.printStackTrace();
-			System.out.println("error while trying to make new stst");
-		}
-		 */
-		
 		  
-		
 		setBackround();
 		createBackButton();
 		createJtextEreaName();
@@ -71,7 +60,6 @@ public class MaxScores extends JPanel {
 		backButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				System.out.println("back clicked");
 				main.frame.setContentPane(new OpenScreen());
 				main.frame.validate();
 				main.frame.setSize(400,400);

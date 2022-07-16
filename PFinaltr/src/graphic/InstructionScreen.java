@@ -67,8 +67,6 @@ public class InstructionScreen extends JPanel {
 		backButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				System.out.println("back clicked");
-				//main.frame.setVisible(false);
 				main.frame.invalidate();
 				main.frame.remove(thisPanel);
 				main.frame.setContentPane(new OpenScreen());

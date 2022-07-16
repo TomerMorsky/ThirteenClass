@@ -36,13 +36,11 @@ public class Stats {
 		public void readFromFile() throws IOException {
 		    BufferedReader br = new BufferedReader(new FileReader(f)); 
 		    String st; 
-		   //lines = new ArrayList<Integer>();
 		    st = br.readLine();
 		    this.maxScore = Integer.parseInt(st);
 		    st = br.readLine();
 		    this.nameOfWinner = st;
 		    br.close();
-		    //updateLocalVariables();
 		}
 		
 		/**
@@ -91,7 +89,6 @@ public class Stats {
 				this.nameOfWinner = name;
 			}
 				
-		//	}
 			writeToFile();
 		}
 }

@@ -18,7 +18,7 @@ public static Game game;
 		frame.add(panel);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(400,400);
-		frame.setVisible(true);//
+		frame.setVisible(true);
 		frame.setLocation(400,250);
 		frame.setResizable(false);
 		try {

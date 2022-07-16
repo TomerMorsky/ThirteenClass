@@ -76,7 +76,6 @@ public class WinningScreen extends JPanel {
 					try {
 						Stats stats = new Stats();
 						stats.updateStats(main.game.getPlayerName(), maxScore);
-						System.out.println("write to file!!!!!");
 					} catch (IOException e1) {
 						e1.printStackTrace();
 					}
